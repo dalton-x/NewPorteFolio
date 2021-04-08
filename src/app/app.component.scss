@@ -1,0 +1,66 @@
+ul {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  transition: .3s;
+  color: red;
+}
+
+ul li a:hover{
+color: #5A5050;
+cursor: pointer;
+}
+
+// footer
+.container3 {
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+}
+
+footer{
+  height: 25%;
+  min-height: 25%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  ul li a{
+    color: white !important;
+  }
+}
+
+.animate_footer {
+  background: linear-gradient(184deg, #ff0000, #EA6C4B);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 38s ease infinite;
+  -moz-animation: AnimationName 38s ease infinite;
+  animation: AnimationName 38s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:51% 100%}
+  100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:51% 100%}
+  100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:50% 0%}
+  50%{background-position:51% 100%}
+  100%{background-position:50% 0%}
+}

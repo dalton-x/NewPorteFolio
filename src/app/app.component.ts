@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'newportefolio';
+
+  scrollToId(id){
+    document.querySelector("#" + id).scrollIntoView({behavior: "smooth"});
+  }
 }

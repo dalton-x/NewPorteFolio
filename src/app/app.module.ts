@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { HomeComponent } from './home/home.component'; 
+import { AboutMeComponent } from './about-me/about-me.component';
+import { EducationalComponent } from './educational/educational.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    AboutMeComponent,
+    EducationalComponent,
   ],
   imports: [
     BrowserModule,
