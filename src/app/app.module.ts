@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { EducationalComponent } from './educational/educational.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
     EducationalComponent,
+    ProjectComponent,
   ],
   imports: [
     BrowserModule,
