@@ -12,4 +12,8 @@ export class EducationalComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openLink(link: string){
+    window.open(link)
+  }
+
 }
