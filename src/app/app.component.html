@@ -1,7 +1,7 @@
-<header class="px-3 py-2 bg-dark text-white">
+<header id="haut" class="px-3 py-2">
   <div class="container">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-      <a href="/" class="d-flex my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+      <a href="/" class="d-flex my-2 my-lg-0 me-lg-auto text-decoration-none">
         <img src="../assets/logo_black.png" class="img-fluid img-thumbnail" alt="Logo dev-web.fr" style="width: 100px;">
       </a>
 
@@ -10,7 +10,7 @@
           <a class="link" (click)= 'scrollToId("formations")' class="nav-link py-3" >
             <i class="fas fa-book-open fa-3x"></i>
           </a>
-          <span>
+          <span class="text-dark">
             Formation
           </span>
         </li>
@@ -18,7 +18,7 @@
           <a class="link" (click)= 'scrollToId("parcours")' class="nav-link py-3">
             <i class="fas fa-route fa-3x"></i>
           </a>
-          <span>
+          <span class="text-dark">
             Parcours
           </span>
         </li>
@@ -26,7 +26,7 @@
           <a class="link" (click)= 'scrollToId("projets")' class="nav-link py-3">
             <i class="fas fa-tasks fa-3x"></i>
           </a>
-          <span>
+          <span class="text-dark">
             Projets
           </span>
         </li>
@@ -34,7 +34,7 @@
           <a class="link" (click)= 'scrollToId("contact")' class="nav-link py-3">
             <i class="fas fa-envelope fa-3x"></i>
           </a>
-          <span>
+          <span class="text-dark">
             Contact
           </span>
         </li>
@@ -43,11 +43,16 @@
   </div>
 </header>
 
+<!-- Permet de faire le logo pour up en haut de page -->
+<div>
+  <a id="cRetour" class="cInvisible" (click)= 'scrollToId("haut")'></a>
+</div>
 
 <div class ="app-content">
   <app-about-me></app-about-me>
   <app-educational></app-educational>
   <app-project></app-project>
+  <app-timeline></app-timeline>
 </div>
 
 

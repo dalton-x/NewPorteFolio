@@ -9,6 +9,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { EducationalComponent } from './educational/educational.component';
 import { ProjectComponent } from './project/project.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProjectComponent } from './project/project.component';
     AboutMeComponent,
     EducationalComponent,
     ProjectComponent,
+    TimelineComponent,
   ],
   imports: [
     BrowserModule,
