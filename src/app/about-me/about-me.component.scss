@@ -31,7 +31,7 @@
   margin: 0 auto;
 }
 
-#intro p {
+#intro p.pres {
   margin-top: .5em;
   font-weight: 300;
   font-size: 1.875em;
@@ -43,6 +43,41 @@
 span{
   font-style: oblique;
   color: #5A5050;
+}
+
+card-body.height{
+  min-height: 480px;
+}
+
+// progress bar
+
+.progress-outer{
+  background: #fff;
+  padding: 5px 60px 5px 5px;
+  border-radius: 45px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progress{
+  background: #bebfbf;
+  border-radius: 20px;
+  margin: 0;
+}
+.progress .progress-bar{
+  border-radius: 20px;
+  box-shadow: none;
+  animation: animate-positive 3.5s;
+}
+.progress .progress-value{
+  font-size: 20px;
+  font-weight: 700;
+  color: #6b7880;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+@keyframes animate-positive{
+  0%{ width: 0; }
 }
 
 /*****MOBILE*****/

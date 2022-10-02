@@ -48,45 +48,71 @@
   <a id="cRetour" class="cInvisible" (click)= 'scrollToId("haut")'></a>
 </div>
 
-<div class ="app-content">
-  <app-about-me></app-about-me>
-  <app-educational></app-educational>
-  <app-project></app-project>
-  <app-timeline></app-timeline>
-</div>
-
-
-<footer style="border-top: 3px black solid" class="container3 animate_footer" id="contact" data-spy="">
-  <div class="row">
-    <div class="col-4 col-md">
-      <h3>Plan du site</h3>
-      <ul class="list-unstyled text-small">
-        <li routerLinkActive="active"><a class="link" (click)= 'scrollToId("timeline")'>Mon Parcours</a>
-        </li>
-        <li routerLinkActive="active"><a class="link" (click)= 'scrollToId("projets")'>Mes Projets</a>
-        </li>
-        <li routerLinkActive="active"><a class="link" (click)= 'scrollToId("formations")'>Ma Formation</a>
-        </li>
-      </ul>
-    </div>
-    <div class="col-4 col-md">
-      <h3>Où me trouver</h3>
-      <ul class="list-unstyled text-small">
-        <li><a  target="_blank" rel="noopener" href="https://www.linkedin.com/in/thomas-g-789bb71a8/"><i class="fab fa-linkedin fa-3x"></i></a></li>
-        <li><a  target="_blank" rel="noopener" href="https://my.indeed.com/p/pa61pcl"><i class="fab fa-invision fa-3x"></i></a></li>
-        <li><a  target="_blank" rel="noopener" href="https://github.com/dalton-x/"><i class="fab fa-github-square fa-3x"></i></a></li>
-        <li><a  target="_blank" rel="noopener" href="mailto:contact@dev-web.fr"><i class="fas fa-envelope fa-3x"></i></a></li>
-      </ul>
-    </div>
-    <div class="col-4 col-md">
-      <h3>A propos de moi</h3>
-      <ul style="color: white;" class="list-unstyled text-small">
-        34 ans. <br>
-        En recherche active d'emploi. <br>
-        Région Centre Val de loire. <br>
-        En reconversion professionelle. <br>
-        Développeur Web junior.
-      </ul>
+<!-- <ng-container *ngIf="!this.loading">
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border text-info" role="status">
+      <span class="visually-hidden">Loading...</span>
     </div>
   </div>
-</footer>
+</ng-container> -->
+<!-- <ng-container *ngIf="this.loading"> -->
+  <div class ="app-content">
+    <app-about-me></app-about-me>
+    <app-educational></app-educational>
+    <app-project></app-project>
+    <app-timeline></app-timeline>
+  </div>
+
+  <footer style="border-top: 3px black solid" class="container3 animate_footer" id="contact" data-spy="">
+    <div class="row">
+      <div class="col-4 col-md">
+        <h3>Plan du site</h3>
+        <ul class="list-unstyled text-small">
+          <div class="row  text-light">
+            <div class="col-md-4">
+              <a (click)= 'scrollToId("timeline")' style="cursor: pointer;">Mon Parcours</a>
+            </div>
+            <div class="col-md-4">
+              <a (click)= 'scrollToId("projets")' style="cursor: pointer;">Mes Projets</a>
+            </div>
+            <div class="col-md-4">
+              <a (click)= 'scrollToId("formations")' style="cursor: pointer;">Ma Formation</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="col-4 col-md">
+        <h3>Où me trouver</h3>
+        <ul class="list-unstyled text-small">
+          <div class="row">
+            <div class="col-md-3">
+              <a  target="_blank" rel="noopener" href="https://www.linkedin.com/in/thomas-g-789bb71a8/"><i class="fab fa-linkedin fa-3x text-muted"></i></a>
+            </div>
+            <div class="col-md-3">
+              <a  target="_blank" rel="noopener" href="https://my.indeed.com/p/pa61pcl"><i class="fab fa-invision fa-3x text-muted"></i></a>
+            </div>
+            <div class="col-md-3">
+              <a  target="_blank" rel="noopener" href="https://github.com/dalton-x/"><i class="fab fa-github-square fa-3x text-muted"></i></a>
+            </div>
+            <div class="col-md-3">
+              <a  target="_blank" rel="noopener" href="mailto:contact@dev-web.fr"><i class="fas fa-envelope fa-3x text-muted"></i></a>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="col-4 col-md">
+        <h3>A propos de moi</h3>
+        <ul style="color: white;" class="list-unstyled text-small">
+          34 ans. <br>
+          En recherche active d'emploi. <br>
+          Région Centre Val de loire. <br>
+          En reconversion professionelle. <br>
+          Développeur Web junior.
+        </ul>
+      </div>
+    </div>
+  </footer>
+<!-- </ng-container> -->
+
+
+
