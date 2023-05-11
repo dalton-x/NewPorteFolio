@@ -47,15 +47,6 @@
 <div>
   <a id="cRetour" class="cInvisible" (click)= 'scrollToId("haut")'></a>
 </div>
-
-<!-- <ng-container *ngIf="!this.loading">
-  <div class="d-flex justify-content-center">
-    <div class="spinner-border text-info" role="status">
-      <span class="visually-hidden">Loading...</span>
-    </div>
-  </div>
-</ng-container> -->
-<!-- <ng-container *ngIf="this.loading"> -->
   <div class ="app-content">
     <app-about-me></app-about-me>
     <app-educational></app-educational>
@@ -103,16 +94,11 @@
       <div class="col-4 col-md">
         <h3>A propos de moi</h3>
         <ul style="color: white;" class="list-unstyled text-small">
-          34 ans. <br>
-          En recherche active d'emploi. <br>
+          {{ this.age }} ans. <br>
           Région Centre Val de loire. <br>
           En reconversion professionelle. <br>
-          Développeur Web junior.
+          Développeur Web.
         </ul>
       </div>
     </div>
   </footer>
-<!-- </ng-container> -->
-
-
-
