@@ -1,0 +1,7 @@
+.tab-pane {
+  backdrop-filter: blur(10px);
+}
+
+.nav {
+  background: white;color: white;
+}
