@@ -1,4 +1,5 @@
 
+import ModalIframe from '../../Modal/ModalIframe';
 import './Style.css'
 
 
@@ -45,8 +46,13 @@ function DevWeb() {
                   </li>
                 </ul>
               </div>
-              <div className="card-footer d-grid gap-2">
-                <a data-bs-toggle="modal" data-bs-target="#modal" className="btn btn-primary btn-block">Voir les rapports</a>
+              <div className="card-footer row ">
+                <div className="col-6 d-grid gap-2">
+                  <button className="btn btn-primary" data-bs-target="#modalSEOOriginal" data-bs-toggle="modal">SEO original</button>
+                </div>
+                <div className="col-6 d-grid gap-2">
+                  <button className="btn btn-primary" data-bs-target="#modalSEOOptimise" data-bs-toggle="modal">SEO optimisé</button>
+                </div>
               </div>
             </div>
           </div>
@@ -139,70 +145,23 @@ function DevWeb() {
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Modal principal  */}
-      <div className="modal fade" id="modal" aria-hidden="true" aria-labelledby="modalLabel">
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="modalLabel">Voir les rapports SEO</h5>
-              <button type="button" className="btn-close text-danger" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              <ul>
-                <li>Optimisation du code</li>
-                <li>Optimisation des images en format web actuel</li>
-                <li>Correction des erreurs de code et de script <i className="fab fa-js-square text-warning"></i></li>
-              </ul>
-            </div>
-            <div className="modal-footer">
-              <button className="btn btn-primary" data-bs-target="#modalSEOOriginal" data-bs-toggle="modal" data-bs-dismiss="modal">SEO original</button>
-              <button className="btn btn-primary" data-bs-target="#modalSEOOptimise" data-bs-toggle="modal" data-bs-dismiss="modal">SEO optimisé</button>
-            </div>
-          </div>
-        </div>
-      </div>
+        <ModalIframe
+          id={'SEOOriginal'}
+          title={'Rapport SEO de la version originale du site'}
+          lien={'./projets/devWeb/html/rapport_seo_original.html'}
+          titreIframe={'Rapport SEO Original'}
+        />
+        <ModalIframe
+          id={'SEOOptimise'}
+          title={'Rapport SEO de la version optimisée du site'}
+          lien={'./projets/devWeb/html/rapport_seo_optimise.html'}
+          titreIframe={'Rapport SEO Optimisé'}
+        />
 
-      {/* Modal original  */}
-      <div className="modal fade" id="modalSEOOriginal" aria-hidden="true" aria-labelledby="modalSEOOriginalLabel">
-        <div className="modal-dialog modal-dialog-centered modal-xl">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="modalSEOOriginalLabel">Rapport SEO de la version originale du site</h5>
-              <button className="btn-close text-danger" data-bs-toggle="modal" data-bs-target="#modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              <iframe title="Rapport SEO Original" width="1100" height="700" src="./projets/devWeb/html/rapport_seo_original.html"></iframe>
-            </div>
-            <div className="modal-footer">
-              <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Fermer</button>
-            </div>
-          </div>
-        </div>
       </div>
-
-      {/* Modal optimisé  */}
-      <div className="modal fade" id="modalSEOOptimise" aria-hidden="true" aria-labelledby="modalSEOOptimiseLabel">
-        <div className="modal-dialog modal-dialog-centered modal-xl">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="modalSEOOptimiseLabel">Rapport SEO de la version optimisée du site</h5>
-              <button className="btn-close text-danger" data-bs-toggle="modal" data-bs-target="#modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              <iframe title="Rapport SEO Optimisé" width="1100" height="700" src="./projets/devWeb/html/rapport_seo_optimise.html"></iframe>
-            </div>
-            <div className="modal-footer">
-              <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Fermer</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
   );
 }
-
 
 export default DevWeb

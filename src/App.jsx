@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import './App.css'
-import Header from './Components/Header'
+import Header from './Components/Header/Header'
 import Home from './Pages/Home/home'
 
 function App() {

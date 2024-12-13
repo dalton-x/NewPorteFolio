@@ -1,4 +1,8 @@
 #app-content{
-  background: url("./fond.jpg") no-repeat;
+  background: url("./fond.png") no-repeat;
+  background-size: 100%;
+}
+.dark-mode #app-content{
+  background: url("./fond_dark.png") no-repeat;
   background-size: 100%;
 }
