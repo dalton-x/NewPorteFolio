@@ -1,0 +1,66 @@
+[
+  {
+    "header": "Premiers pas sur le langage HTML",
+    "body": {
+      "title": "HTML et le CSS",
+      "items": [
+        "Créer une nouvelle section sur la page web de l'association.",
+        "Utiliser Figma pour accéder aux maquettes et Visual Studio Code comme environnement de développement"
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://dalton-x.github.io/TG_inte_web_P2/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "body": {
+      "title": "Interface responsive",
+      "items": [
+        "La capacité à créer des interfaces web responsives est cruciale dans le développement web moderne.",
+        "En apprenant à intégrer des maquettes avec précision en utilisant HTML et CSS, et en configurant un environnement de développement efficace, vous poserez les bases nécessaires pour devenir un développeur front-end compétent."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://dalton-x.github.io/TG_inte_web_P3/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Améliorez l&apos;interface d&apos;un site mobile avec des animations CSS",
+    "body": {
+      "title": "Mobile-first et les animations CSS",
+      "items": [
+        "La capacité à créer des interfaces web mobile-first est de plus en plus demandée dans le développement web moderne. ",
+        "L&apos;intégration d&apos;animations CSS améliore non seulement l&apos;aspect visuel du site, mais aussi l&apos;expérience utilisateur. "
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://dalton-x.github.io/TG_inte_web_P4/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Premiers pas sur le langage JavaScript",
+    "body": {
+      "title": "les fondamentaux de JavaScript",
+      "items": [
+        "Savoir programmer en JavaScript est essentiel pour tout développeur web. Ce langage est omniprésent dans le développement web moderne, et sa maîtrise est cruciale pour créer des sites web interactifs et réactifs.",
+        "La capacité à combiner JavaScript avec HTML et CSS vous permettra de développer des sites web plus dynamiques et engageants, ce qui est hautement valorisé dans l&apos;industrie."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://dalton-x.github.io/TG_inte_web_P5/",
+        "text": "Voir le site"
+      }
+    }
+  }
+]

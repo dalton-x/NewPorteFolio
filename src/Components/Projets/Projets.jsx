@@ -31,7 +31,7 @@ function Projets () {
       </div>
       <div className="container border border-danger p-2 rounded">
         <ul className="nav nav-pills nav-justified">
-          <li className="nav-item" role="presentation">
+          <li className="nav-item">
             <button 
               className={`nav-link ${activeTab === 'tab1' ? 'active' : ''}`}
               onClick={() => setActiveTab('tab1')}
@@ -41,7 +41,7 @@ function Projets () {
               DevWeb
             </button>
           </li>
-          <li className="nav-item" role="presentation">
+          <li className="nav-item">
             <button 
               className={`nav-link ${activeTab === 'tab2' ? 'active' : ''}`}
               onClick={() => setActiveTab('tab2')}
@@ -51,7 +51,7 @@ function Projets () {
               CCI
             </button>
           </li>
-          <li className="nav-item" role="presentation">
+          <li className="nav-item">
             <button 
               className={`nav-link ${activeTab === 'tab3' ? 'active' : ''}`}
               onClick={() => setActiveTab('tab3')}
