@@ -1,0 +1,92 @@
+[
+  {
+    "header": "Mise en forme d'un site de menus de restaurants",
+    "body": {
+      "title": "Les animations et Sass",
+      "items": [
+        "En partant de maquette fournit par un client, j'ai dû réaliser le site web avec un cahier des charges définit.",
+        "La création d'animations et de mise en forme des menus fournit en images pour les rendre au format. <i class='fab fa-html5 text-danger' title='HTML5'></i> et <i class='fab fa-css3-alt text-info' title='CSS3'></i>."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://projet-3.dev-web.fr/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Reprise d'un site pour le mettre aux normes actuelles",
+    "body": {
+      "title": "L'optimisation et le référencement",
+      "items": [
+        "Le client a un site web n'étant pas très bien référencé dans les moteurs de recherche.",
+        "Je me devais de remettre le site web aux normes actuelles et surtout d'enlever toutes les mauvaises pratiques de référencement."
+      ]
+    },
+    "footer": {
+      "btn": [
+        {
+          "target" : "#modalSEOOriginal",
+          "text" : "SEO Original"
+        },
+        {
+          "target" : "#modalSEOOptimise",
+          "text" : "SEO optimisé"
+        }
+      ]
+    }
+  },
+  {
+    "header": "Utilisation d'une API serveur",
+    "body": {
+      "title": "Développement du front-end",
+      "items": [
+        "Le client m'a fourni une API pour se connecter a son serveur de son site e-commerce.",
+        "J'ai dû faire toute l'interface client en respectant le CDC et le respect de son interface client-serveur.",
+        "Utilisation de <i class='fab fa-html5 text-danger' title='HTML5'></i> , <i class='fab fa-css3-alt text-info' title='CSS3'></i> et <i class='fab fa-js-square text-warning'></i>"
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://projet-5.dev-web.fr/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Création du serveur avec un front déjà existant",
+    "body": {
+      "title": "Développement du back-end",
+      "items": [
+        "Le client m'a demandé de faire le serveur de son application de gestion de sauces piquantes.",
+        "Je devais reprendre son API et faire le traitement des données :",
+        "<ul><li>Utilisateurs : inscription/Connexion.</li><li>Traitement de l'ajout / suppression des sauces piquantes.</li><li>Gestion des <i class='fas fa-thumbs-up text-success' title='like'></i> & <i class='fas fa-thumbs-down text-danger' title='unlike'></i> des sauces par les utilisateurs.</li></ul>",
+        "Utilisation de <i class='fab fa-node text-success' title='nodeJS'></i> & de MongoDB"
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://projet-6.dev-web.fr/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Création d'un réseau social",
+    "body": {
+      "title": "Groupomania",
+      "items": [
+        "Le client m'a contacté pour lui faire un réseau social pour son entreprise en plein développement.",
+        "Avec un CDC rigoureux et l'utilisation des logos de l'entreprise.",
+        "L'utilisation du framework <i class='fab fa-angular text-danger'></i> pour le front et de <i class='fab fa-node text-success' title='nodeJS'></i> avec MYSQL et sequelize pour la gestion des données serveur."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://projet-7.dev-web.fr/",
+        "text": "Voir le site"
+      }
+    }
+  }
+]
