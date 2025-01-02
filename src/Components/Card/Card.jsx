@@ -18,17 +18,29 @@ export const Card = ({ card }) => {
           {
             (card.footer.link != undefined)
             ?
-              <a target="_blank" href={card.footer.link.url} className="btn btn-primary">
+              <a target="_blank" href={card.footer.link.url}
+                 className={`btn btn-primary ${card.footer.link.disabled ? 'disabled' : ''}`}
+                 onClick={card.footer.link.disabled ? (e) => e.preventDefault() : undefined}
+              >
                 {card.footer.link.text}
               </a>
             :  
-              <div className="row">
-                {card.footer.btn.map((btn, index) => (
-                  <div key={'btn_'+index} className="col-6 d-grid gap-2">
-                    <button className="btn btn-primary" data-bs-target={btn.target} data-bs-toggle="modal">{btn.text}</button>
-                  </div>
-                ))}
-              </div>
+            <div className="row">
+              {card.footer.btn.map((btn, index) => (
+                <div key={'btn_' + index} className="col-6 d-grid gap-2">
+                  {/* C'est une ancre pour les modals */}
+                  {btn.target.startsWith('#') ? (
+                    <button className="btn btn-primary" data-bs-target={btn.target} data-bs-toggle="modal">
+                      {btn.text}
+                    </button>
+                  ) : (
+                    <a href={btn.target} target="_blank" className="btn btn-primary">
+                      {btn.text}
+                    </a>
+                  )}
+                </div>
+              ))}
+            </div>
           }
         </div>
       </div>
