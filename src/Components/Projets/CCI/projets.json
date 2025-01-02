@@ -1,0 +1,56 @@
+[
+  {
+    "header": "Evaluation du début de formation",
+    "body": {
+      "title": "Création d'un curriculum vitae",
+      "items": [
+        "Nous devions créer un Cv en <i class='fab fa-html5 text-danger' title='HTML5'></i> et <i class='fab fa-css3-alt text-info' title='CSS3'></i> sans bibliotheque externe"
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "./projets/Cci/cv.html",
+        "text": "Voir le CV"
+      }
+    }
+  },  
+  {
+    "header": "Développement d'une maquette",
+    "body": {
+      "title": "Création d'un site Web via une maquette",
+      "items": [
+        "Faire un site web One page depuis une maquette .psd",
+        "Travailler avec <i class='fa-brands fa-github' title='Github'></i> en binome (Gestion des pulls, Commit et Merge request)",
+        "Déployer son site via <i class='fa-brands fa-github-alt' title='Github page'></i>"
+      ]
+    },
+    "footer": {
+      "btn": [
+        {
+          "target" : "./projets/Cci/maquette_brunch_full_webSite.png",
+          "text" : "Voir la maquette"
+        },
+        {
+          "target" : "https://dalton-x.github.io/brunch_full_website/",
+          "text" : "Voir le site"
+        }
+      ]
+    }
+  },
+  {
+    "header": "Projet de fin de formation",
+    "body": {
+      "title": "Création d'un site web e-commerce",
+      "items": [
+        "Nous devions faire un site web e-commerce avec certaines contraines"
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "",
+        "text": "Site hors ligne",
+        "disabled" : true
+      }
+    }
+  }
+]
