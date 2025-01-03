@@ -1,0 +1,91 @@
+[
+  {
+    "date" : "12/2005 - 03/2006",
+    "type" : "Agent d'entretien",
+    "entreprise" : "Mairie d'Échilleuse",
+    "dpt" : "Loiret (45)",
+    "activites" : [
+      "Entretien de la commune.",
+      "Distribution du courrier de la mairie."
+    ]
+  },
+  {
+    "date" : "04/2006 - 10/2007",
+    "type" : "Électricien",
+    "entreprise" : "ETS Plaza",
+    "dpt" : "Loiret (45)",
+    "activites" : [
+      "Réalisation des installations domestiques.",
+      "Maintenance d'installations industrielles "
+    ]
+  },
+  {
+    "date" : "11/2007 - 08/2008",
+    "type" : "Préparateur de commande",
+    "entreprise" : "Interim Planett",
+    "dpt" : "Loiret (45)",
+    "activites" : [
+      "Préparation de commande pour Séphora.",
+      "Gestion de quai de dé/chargement pour Carrefour"
+    ]
+  },
+  {
+    "date" : "08/2008 - 03/2009",
+    "type" : "Multiples missions d'interim",
+    "entreprise" : "Adecco",
+    "dpt" : "Maine et loire (49)",
+    "activites" : [
+      "Multiples missions de courte durée "
+    ]
+  },
+  {
+    "date" : "03/2009 - 09/2010",
+    "type" : "Agent de maintenance / Aide-bobineur",
+    "entreprise" : "Adecco",
+    "dpt" : "Loiret (45)",
+    "activites" : [
+      "Entretien de serres agricole (Monsanto) ",
+      "Production et préparation de Ouate (Georgia pacific) "
+    ]
+  },
+  {
+    "date" : "10/2010 à 09/2020",
+    "type" : "Électricien",
+    "entreprise" : "ETS Lefevre",
+    "dpt" : "Cher (18) ",
+    "activites" : [
+      "Aménagement électrique neuf et rénovation domestique, tertiaire et industrielle, ",
+      "Vente, installation, dépannage d'électromenager"
+    ]
+  },
+  {
+    "date" : "01/2020 - 07/2020",
+    "type" : "Développeur Web",
+    "entreprise" : "OpenClassrooms",
+    "dpt" : "Cher (18) ",
+    "activites" : [
+      "A l'issue de la formation et de la validation des compétences par un jury organisé par OpenClassrooms,nous obtenons le certificat «Développeur web». "
+    ]
+  },
+  {
+    "date" : "Depuis 04/2021",
+    "type" : "Développeur Web",
+    "entreprise" : "dev-web.fr",
+    "dpt" : "Cher (18) ",
+    "activites" : [
+      "Auto-entrepreneur ",
+      "Création de sites web ",
+      "Sites virtrine, e-commerce, ..."
+    ]
+  },
+  {
+    "date" : "Depuis 03/2022",
+    "type" : "Développeur Web / Intégrateur web",
+    "entreprise" : "Crédit Agricole Centre Loire",
+    "dpt" : "Loiret (45)",
+    "activites" : [
+      "Création d'applicatifs web, pilotage, workflow, ...",
+      "Gestion tickets/SAV "
+    ]
+  }
+]

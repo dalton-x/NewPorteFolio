@@ -32,12 +32,12 @@
     }
   },
   {
-    "header": "Améliorez l&apos;interface d&apos;un site mobile avec des animations CSS",
+    "header": "Améliorez l'interface d'un site mobile avec des animations CSS",
     "body": {
       "title": "Mobile-first et les animations CSS",
       "items": [
         "La capacité à créer des interfaces web mobile-first est de plus en plus demandée dans le développement web moderne. ",
-        "L&apos;intégration d&apos;animations CSS améliore non seulement l&apos;aspect visuel du site, mais aussi l&apos;expérience utilisateur. "
+        "L'intégration d'animations CSS améliore non seulement l'aspect visuel du site, mais aussi l'expérience utilisateur. "
       ]
     },
     "footer": {
@@ -53,7 +53,7 @@
       "title": "les fondamentaux de JavaScript",
       "items": [
         "Savoir programmer en JavaScript est essentiel pour tout développeur web. Ce langage est omniprésent dans le développement web moderne, et sa maîtrise est cruciale pour créer des sites web interactifs et réactifs.",
-        "La capacité à combiner JavaScript avec HTML et CSS vous permettra de développer des sites web plus dynamiques et engageants, ce qui est hautement valorisé dans l&apos;industrie."
+        "La capacité à combiner JavaScript avec HTML et CSS vous permettra de développer des sites web plus dynamiques et engageants, ce qui est hautement valorisé dans l'industrie."
       ]
     },
     "footer": {
@@ -62,5 +62,111 @@
         "text": "Voir le site"
       }
     }
+  },
+  {
+    "header": "Créez une page web dynamique avec JavaScript",
+    "body": {
+      "title": "Manipulation des éléments du DOM avec JavaScript",
+      "items": [
+        "Créer une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias",
+        "Accès à un code back-end pour tester les fonctionnalités.",
+        "Utiliser Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://github.com/dalton-x/TG_inte_web_P6/",
+        "text": "Voir le site"
+      }
+    }
+  },
+  {
+    "header": "Planifiez le développement du site de votre client",
+    "body": {
+      "title": "Planification du développement d'un site web. ",
+      "items": [
+        "Accès à la maquette, aux spécifications fonctionnelles et aux User Stories du site.",
+        "Entreprendre une veille technologique pour rester informé des dernières tendances et technologies pertinentes pour le projet.",
+        "Rédiger les spécifications techniques du projet."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://github.com/dalton-x/TG_inte_web_P7",
+        "text": "Voir le projet",
+        "disabled" : true
+      }
+    }
+  },
+  {
+    "header": "Créez une application web de location immobilière avec React",
+    "body": {
+      "title": "React, React router et Vite",
+      "items": [
+        "Pratiquer la logique de présentation des données et les composants React.",
+        "Découvrir et configurer la navigation avec React router.",
+        "Vite, un outil qui simplifie la configuration initiale d'une application React."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://github.com/dalton-x/TG_inte_web_P8",
+        "text": "Voir le code"
+      }
+    }
+  },
+  {
+    "header": "Optimisez le référencement d'un site de photographe",
+    "body": {
+      "title": "Référencement, performance , accessibilité",
+      "items": [
+        "Identifier les problèmes de chargement et de référencement.",
+        "Proposer des recommandations pour améliorer la vitesse de chargement, la structure du code, et le référencement.",
+        "Utiliser des outils tels que Lighthouse et Wave."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://github.com/dalton-x/TG_inte_web_P9",
+        "text": "Voir le code"
+      }
+    }
+  },
+  {
+    "header": "Implémentez le front-end d'une application bancaire avec React",
+    "body": {
+      "title": "Utiliser React et Redux",
+      "items": [
+        "Intégrer le front-end avec le back-end via des appels API.",
+        "Ecrire des appels à l'API REST pour connecter les deux parties de l'application,",
+        "Maintenir un état global cohérent à travers l'application.",
+        "Utilisation et mise à jour de Swagger."
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "https://github.com/dalton-x/TG_inte_web_P10",
+        "text": "Voir le code"
+      }
+    }
+  },
+  {
+    "header": "Créez et publiez votre portfolio de développeur",
+    "body": {
+      "title": "Création et la publication en ligne ",
+      "items": [
+        "Créer un site web personnel. ",
+        "Déployer ce site en ligne, en utilisant Github Pages,",
+        "Responsive design pour garantir une expérience utilisateur optimale,",
+        "Optimiser la performance du code et du référencement SEO"
+      ]
+    },
+    "footer": {
+      "link": {
+        "url": "#",
+        "text": "Voir le site"
+      }
+    }
   }
+
 ]

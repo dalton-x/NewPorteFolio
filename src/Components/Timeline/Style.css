@@ -1,0 +1,41 @@
+.timeline {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  position: relative;
+  white-space: nowrap;
+  cursor: grab;
+  user-select: none
+}
+.timeline-item {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 15px;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  height: calc(100% - 40px);
+  width: 2px;
+  background: #007bff;
+}
+.timeline-item:first-child:before {
+  display: none;
+}
+.timeline-item h5 {
+  margin: 0;
+}
+.timeline-item p {
+  margin: 0;
+  font-size: 0.9em;
+}
+#process .activite {
+  white-space: break-spaces;
+}
