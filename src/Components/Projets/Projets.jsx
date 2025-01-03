@@ -29,7 +29,7 @@ function Projets () {
           Mes projets de formation
         </h2>
       </div>
-      <div className="container border border-danger p-2 rounded">
+      <div className="container border border-danger p-2 rounded my-3classname">
         <ul className="nav nav-pills nav-justified">
           <li className="nav-item">
             <button 
