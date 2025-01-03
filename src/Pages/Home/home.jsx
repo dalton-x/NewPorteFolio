@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer"
 import Presentation from "../../Components/Presentation/Presentation"
 import Projets from "../../Components/Projets/Projets"
 import Timeline from "../../Components/Timeline/Timeline"
@@ -9,6 +10,7 @@ function Home() {
       <Presentation/>
       <Projets/>
       <Timeline/>
+      <Footer/>
     </div>
   )
 }

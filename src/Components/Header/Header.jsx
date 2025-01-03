@@ -4,17 +4,15 @@ import { useEffect, useState } from 'react'
 import './Styles.css'
 
 
-function DarkMode() {
-  
-
-  return (
-    <header>
-      <div id="toggle" onClick={() => darkMode === false ? setDarkMode(true) : setDarkMode(false)} >
-        <div className="toggle-inner"/>
-      </div>
-    </header>
-  )
-}
+// function DarkMode() {
+//   return (
+//     <header>
+//       <div id="toggle" onClick={() => darkMode === false ? setDarkMode(true) : setDarkMode(false)} >
+//         <div className="toggle-inner"/>
+//       </div>
+//     </header>
+//   )
+// }
 
 
 
@@ -23,18 +21,18 @@ function Header() {
 
   const [ darkMode, setDarkMode ] = useState(false)
 
-  useEffect(() => {
-    const body = document.body
-    const toggle = document.querySelector('.toggle-inner')
+  // useEffect(() => {
+  //   const body = document.body
+  //   const toggle = document.querySelector('.toggle-inner')
 
-    if( darkMode === true ) {
-      body.classList.add('dark-mode')
-      toggle.classList.add('toggle-active')
-    } else {
-      body.classList.remove('dark-mode')
-      toggle.classList.remove('toggle-active')
-    }
-  }, [darkMode])
+  //   if( darkMode === true ) {
+  //     body.classList.add('dark-mode')
+  //     toggle.classList.add('toggle-active')
+  //   } else {
+  //     body.classList.remove('dark-mode')
+  //     toggle.classList.remove('toggle-active')
+  //   }
+  // }, [darkMode])
 
   return(
     <div className="container">
@@ -81,11 +79,11 @@ function Header() {
         </ul>
 
         <div className="col-1">
-          <div id="dark-mode">
+          {/* <div id="dark-mode">
             <div id="toggle" onClick={() => darkMode === false ? setDarkMode(true) : setDarkMode(false)} >
               <div className="toggle-inner"/>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
