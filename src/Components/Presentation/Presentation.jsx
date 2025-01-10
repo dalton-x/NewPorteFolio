@@ -11,8 +11,8 @@ function Presentation () {
           <div className="textIntro">
             <div className="row">
               <div className="col-lg-12">
-                <img src="./bonjour.svg" alt="Bonjour et bienvenue"></img>
-                <img className="photo-profil rounded-circle" src="./photo_profil.png" alt="profil"></img>
+                <img src="./assets/bonjour.svg" alt="Bonjour et bienvenue"></img>
+                <img className="photo-profil rounded-circle" src="./assets/photo_profil.png" alt="profil"></img>
                 <p className="pres">Je m’appelle <br></br><span>Thomas Girard</span></p>
                 <p className="pres">Je suis <br></br><span>développeur Web</span></p>
               </div>
