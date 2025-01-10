@@ -38,8 +38,8 @@ function Header() {
     <div className="container">
       <div className="row align-items-center">
         <div className="col-1 text-center">
-          <a href="/" className="">
-            <img src={darkMode === false ? '/logo_black.png' : '/logo_white.png'} className="img-fluid" alt="Logo dev-web.fr"></img>
+          <a href="/NewPorteFolio/" className="">
+            <img src={darkMode === false ? './assets/logo_black.png' : './assets/logo_white.png'} className="img-fluid" alt="Logo dev-web.fr"></img>
           </a>
         </div>
 
