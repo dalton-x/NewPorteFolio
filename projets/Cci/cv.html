@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mon beau CV</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Cv de Thomas Girard">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Bebas+Neue&family=Oswald:wght@400;500&display=swap');
+
+
+*{
+	margin: 0 1% 0 1%;
+}
+
+h1{
+	font-size: 10em;
+	text-align: center;
+}
+
+h2{
+	font-size: 5em;
+	text-align: right;
+}
+.firstname-title{
+	color: yellow;
+	text-shadow: black 3px 0 20px;
+}
+
+.sub-job{
+	text-decoration: underline yellow;
+}
+
+/* Setting up the wrappers for the trainings */
+.grid-container-nav {
+	background-color: #848484;
+	height: 70px;
+  color: black;
+  display: grid;
+  text-align: center;
+	padding-top: 5vh;
+	width: 1260px;
+	border-radius: 15px;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "studient job skills contact"
+}
+
+.nav_studient { grid-area: studient;}
+.nav_job { grid-area: job;}
+.nav_skills { grid-area: skills;}
+.nav_contact { grid-area: contact;}
+
+.nav_studient, .nav_job, .nav_skills, .nav_contact {
+	text-align: center;
+	font-weight: bold;
+}
+
+nav{
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 1vh 0 1vh 0;
+}
+
+nav a {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.7em;
+	/* margin-left: 5vw; */
+	font-weight: bold;
+	/* margin-right: 5vw; */
+	color: white;
+	text-shadow: black 1px 0 10px;
+	text-decoration: none;
+}
+
+i.fa, i.fab{
+	text-shadow: none;
+	color: black;
+}
+
+aside{
+	background-color: lightgray;
+	padding: 0.5vh;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	border: 2px solid black;
+	border-radius: 15px;
+	position: relative;
+	float: left;
+	max-width: 25vw;
+}
+
+aside .lang{
+	text-align: center;
+	padding-bottom: 2vh;
+	line-height: 30px;
+}
+
+h3.skills{
+	text-align: center;
+}
+
+.hard_skills, .soft_skills{
+	text-align: center;
+}
+
+.progress {
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 50px;
+  max-width: 100%;
+  width: 500px;
+	margin: 0.5vh 0 0.5vh 0;
+}
+
+.progress-value {
+	text-align: center;
+	overflow: hidden;
+  border-radius: 100px;
+  height: 15px;
+  width: 0;
+}
+
+.green{
+	border: 5px solid #008a33;
+	background-image: repeating-linear-gradient(-45deg, #008a33, #008a33 5px, #15a353 8px, #15a353 13px) !important;
+}
+.orange{
+	border: 5px solid #ee623a;
+	background-image: repeating-linear-gradient(-45deg, #ee623a, #ee623a 5px, #f06f47 8px, #f06f47 13px);
+}
+
+.title-hard-skill{
+	text-align: center;
+}
+
+.progress span{
+	color: rgb(44, 44, 44);
+}
+
+.angular, .html, .js, .css, .php, .photoshop, .bootstrap, .rigorous, .creative, .autonomous, .enterprising, .motivated, .curious, .dynamic {
+	font-family: 'Balsamiq Sans', cursive;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Oswald', sans-serif;
+}
+
+.angular{
+  animation: angular 3s normal forwards;
+}
+.html{
+  animation: html 3s normal forwards;
+}
+.js, .css{
+  animation: jscss 3s normal forwards;
+}
+.php, .photoshop{
+  animation: phpphotoshop 3s normal forwards;
+}
+.bootstrap{
+  animation: bootstrap 3s normal forwards;
+}
+
+@keyframes angular {
+  0% { width: 0; }
+  100% { width: 55%; }
+}
+@keyframes html {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+@keyframes jscss {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
+@keyframes phpphotoshop {
+  0% { width: 0; }
+  100% { width: 40%; }
+}
+@keyframes bootstrap {
+  0% { width: 0; }
+  100% { width: 78%; }
+}
+
+.rigorous{
+  animation: rigorous 3s normal forwards;
+}
+.creative{
+  animation: creative 3s normal forwards;
+}
+.autonomous{
+  animation: autonomous 3s normal forwards;
+}
+.enterprising{
+  animation: enterprising 3s normal forwards;
+}
+.motivated{
+  animation: motivated 3s normal forwards;
+}
+.curious{
+  animation: curious 3s normal forwards;
+}
+.dynamic{
+  animation: dynamic 3s normal forwards;
+}
+
+@keyframes rigorous {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+@keyframes creative {
+  0% { width: 0; }
+  100% { width: 70%; }
+}
+@keyframes autonomous {
+  0% { width: 0; }
+  100% { width: 88%; }
+}
+@keyframes enterprising {
+  0% { width: 0; }
+  100% { width: 72%; }
+}
+@keyframes motivated {
+  0% { width: 0; }
+  100% { width: 99%; }
+}
+@keyframes curious {
+  0% { width: 0; }
+  100% { width: 91%; }
+}
+@keyframes dynamic {
+  0% { width: 0; }
+  100% { width: 74%; }
+}
+
+section{
+	margin-left: 30vw;
+	padding: 2em;
+	background-color: rgb(209, 236, 245);
+	border-radius: 15px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	border: 2px solid black;
+}
+
+article#cci{
+	margin-top: 5vh;
+	float: left;
+}
+
+#studient{
+	text-align: center;
+}
+#studient article p.cci, #studient article p.oc, #studient article p.bep{
+	text-decoration: underline;
+}
+li{
+	list-style-type: none;
+}
+
+li i.fa{
+	font-size: 0.5em;
+}
+
+.cci, .oc, .bep {
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 1vh;
+	font-weight: bold;
+	font-size: 3em;
+}
+h3#studient, h3#job, h3#contact{
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-left: 30vw;
+	text-align: center;
+}
+
+h4{
+	font-size: 1.4em;
+	text-decoration: underline;
+	margin-top: 2vh;
+}
+
+/* Setting up the wrappers for the trainings */
+.grid-container-formation {
+  color: black;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "date1 date1 date1 date1 . date2 date2 date2 date2"
+    "place1 place1 place1 place1 . place2 place2 place2 place2"
+    "info1 info1 info1 info1 . info2 info2 info2 info2"
+	". . . date3 date3 date3 . . ."
+	". . . place3 place3 place3 . . ."
+	". . info3 info3 info3 info3 info3 . ."
+}
+
+.date1 { grid-area: date1; }
+.date2 { grid-area: date2; }
+.date3 { grid-area: date3; }
+.place1 { grid-area: place1; }
+.place2 { grid-area: place2; }
+.place3 { grid-area: place3; }
+
+.info1 { grid-area: info1; }
+.info2 { grid-area: info2; }
+.info3 { grid-area: info3; }
+
+.date1, .date2, .date3 {text-align: center; padding-bottom: 0.7em;font-weight: bold;}
+.place1, .place2, .place3 {color: indianred; border-top: 2px solid black; padding-top: 0.7em; padding-bottom: 0.5em;}
+.info1, .info2, .info3 {padding-bottom: 0.5em;}
+
+
+/* Setting up the wrappers for the jobs experiance */
+.grid-container-job {
+  color: black;
+  display: grid;
+	margin-top: 2vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". date date title title title title title title"
+    ". description description description description description description description description"
+		". lang lang lang lang lang lang lang lang"
+		". lang_type lang_type lang_type lang_type lang_type lang_type lang_type lang_type"
+}
+
+.date { grid-area: date;}
+.title { grid-area: title; }
+.description { grid-area: description; }
+.lang { grid-area: lang; }
+.lang_type { grid-area: lang_type; }
+
+.date, .title, .description, .lang, .lang_type{text-align: left; margin: 0;}
+
+.date {
+	font-family: 'Oswald', sans-serif;
+}
+.title{
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Oswald', sans-serif;
+}
+.date, .title{
+	font-size: 1.4em;
+}
+.description{
+	font-weight: bold;
+}
+
+/* for contact */
+
+form{
+	text-align: center;
+}
+label{
+	display: none;
+}
+#contact{
+	text-align: center;
+}
+
+input{
+	margin-bottom: 3vh;
+}
+
+.email, .subject{
+	min-width: 51.7vh;
+}
+
+.firstname, .lastname{
+	min-width: 24vh;
+}
+
+input, textarea{
+	text-align: center;
+	/* display: block; */
+	width: 51.7vh;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+}
+
+input:focus, textarea:focus{
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+textarea{
+	width: 51.7vh;
+	height: 80px;
+	margin-bottom: 2vh;
+}
+
+[type="submit"]{
+	width: 80px;
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+			border-top-color: transparent;
+			border-right-color: transparent;
+			border-bottom-color: transparent;
+			border-left-color: transparent;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+[type="submit"]:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+	text-decoration: none;
+}
+[type="submit"]:active{
+	color: #333;
+	background-color: #e6e6e6;
+	background-image: none;
+	border-color: #adadad;
+	outline: 0;
+	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+footer{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	background-color: grey;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+/* Setting up the wrappers for the footer */
+.grid-container-footer {
+	color: black;
+	display: grid;
+	margin-top: 2vh;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: 1fr;
+	gap: 0px 0px;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"address tel nav"
+}
+  
+.address { grid-area: address;}
+.reseaux { grid-area: tel; }
+.menu { grid-area: nav; }
+
+.grid-container-footer-info {
+	color: black;
+	display: grid;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	padding: 2vh 0 2vh;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-template-rows: auto;
+	grid-template-areas:
+	"date date date"
+	"title title title"
+	"description description description"
+}
+  
+.date { grid-area: date;}
+.title { grid-area: title; }
+.description { grid-area: description; }
+
+.link_reseaux {
+	text-align: center;
+}
+i.fab:hover{
+	color: blue;
+}
+
+.title a{
+	text-decoration: none;
+	color: black;
+}
+
+ /* Bouton retour en haut */
+a#cRetour{
+  border-radius:3px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  color:#fff;
+  background:rgba(0, 0, 0, 0.25);
+  position:fixed;
+  right:20px;
+  opacity:1;
+  z-index:99999;
+  transition:all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+a#cRetour:before{ content: "\25b2"; }
+a#cRetour:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}
+a#cRetour.cInvisible{
+  bottom:-35px;
+  opacity:0;
+  transition:all ease-in 0.5s;
+}
+
+a#cRetour.cVisible{
+  bottom:20px;
+  opacity:1;
+}
+
+
+/* for laptop 13inch */
+@media screen and (max-width:1441px) { 
+	.progress{
+		width: 374px;
+	}
+
+	.grid-container-nav{
+		width: 93vw;
+	}
+}
+  </style>
+
+
+
+	<header id="top">
+		<h1>Girard <span class="firstname-title">Thomas</span></h1>
+		<h2>Développeur <span class="sub-job">Web</span></h2>
+	</header>
+
+	<nav>
+		<span class="grid-container-nav">
+			<a class="nav_studient" href="#studient"><i class="fa fa-user-graduate"></i> Mes formations </a>
+			<a class="nav_job" href="#job"><i class="fa fa-user-tie"></i> Mes Exp professionnelles </a>
+			<a class="nav_skills" href="#skills"><i class="fa fa-book"></i> Mes skills </a>
+			<a class="nav_contact" href="#contact"><i class="fa fa-envelope"></i> Me contacter </a>
+		</span>
+	</nav>
+
+	<!-- Aside for my skills -->
+	<aside id="skills">
+		<h3 class="skills">Mes skills</h3>
+		<h4 class="hard_skills">Hard Skills</h4>
+		<br>
+		<div class="title-hard-skill">Angular CLI 10</div>
+		<div class="progress">
+			<div class="progress-value green angular"></div>
+		</div>
+		<div class="title-hard-skill">HTML5</div>
+		<div class="progress">
+			<div class="progress-value orange html"></div>
+		</div>
+		<div class="title-hard-skill">CSS3</div>
+		<div class="progress">
+			<div class="progress-value green css"></div>
+		</div>
+		<div class="title-hard-skill">JavaScript</div>
+		<div class="progress">
+			<div class="progress-value orange js"></div>
+		</div>
+		<div class="title-hard-skill">PHP</div>
+		<div class="progress">
+			<div class="progress-value green php"></div>
+		</div>
+		<div class="title-hard-skill">Bootstrap</div>
+		<div class="progress">
+			<div class="progress-value orange bootstrap"></div>
+		</div>
+		<div class="title-hard-skill">PhotoShop</div>
+		<div class="progress">
+			<div class="progress-value green photoshop"></div>
+		</div>
+
+		<h4 class="soft_skills">Soft Skills</h4>
+		<br>
+		<div class="title-hard-skill">Rigoureux</div>
+		<div class="progress">
+			<div class="progress-value orange rigorous"></div>
+		</div>
+		<div class="title-hard-skill">Créatif</div>
+		<div class="progress">
+			<div class="progress-value green creative"></div>
+		</div>
+		<div class="title-hard-skill">Autonome</div>
+		<div class="progress">
+			<div class="progress-value orange autonomous"></div>
+		</div>
+		<div class="title-hard-skill">Entreprenant</div>
+		<div class="progress">
+			<div class="progress-value green enterprising"></div>
+		</div>
+		<div class="title-hard-skill">Motivé</div>
+		<div class="progress">
+			<div class="progress-value orange motivated"></div>
+		</div>
+		<div class="title-hard-skill">Curieux</div>
+		<div class="progress">
+			<div class="progress-value green curious"></div>
+		</div>
+		<div class="title-hard-skill">Dynamique</div>
+		<div class="progress">
+			<div class="progress-value orange dynamic"></div>
+		</div>
+
+		<div class="lang">
+			<h4>Langues parlées</h4>
+			<p>Français (Martenelle)</p>
+			<p>Anglais (B2)</p>
+		</div>
+	</aside>
+
+	<!-- Section for my studient experience -->
+	<h3 id="studient"> Mes Formations </h3>
+	<section class="studient">
+		<article class="grid-container-formation">
+			<div class="date1">En cours: De septembre 2021 à Juin 2022</div>
+			<div class="place1">Formation CCI : Bourges</div>
+			<div class="info1">
+				<ul>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Gestion de projet
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> HTML5 & CSS3
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> PHP / laravel
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> React / React native
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Bureautique pour la gestion de projet
+					</li>
+				</ul>
+			</div>
+			<div class="date2">De Janvier 2020 à Juillet 2020</div>
+			<div class="place2">Formation OpenClassrooms : Distanciel</div>
+			<div class="info2">
+				<ul>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Gestion de projet
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Création On Page d'aprés une maquette
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Annimation et Sass
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> SEO et WCAG
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Gestion back avec un API définie
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Gestion front avec un cahier des charge donné
+					</li>
+					<li>
+						<i class="fa fa-angle-right 2x"></i> Création d'un reseau social d'entreprise avec framwork Js (Angular 10)
+					</li>
+				</ul>
+			</div>
+			<div class="date3">De Septembre 2003 à Juin 2005</div>
+			<div class="place3">BEP Métier de l'ectrotechnique : Lycée Jean de la taille</div>
+			<div class="info3">
+				<p>
+					Les situations professionnelles visées par ce diplôme de niveau-V concernent la mise en œuvre, l’exploitation et la maintenance des installations et des équipements électriques. 
+				</p>
+			</div>
+		</article>
+	</section>
+
+
+	<!-- Section for my job experience -->
+	<h3 id="job"> Mes Expérience professionnelles </h3>
+	<section class="job">
+		<h4>Développement web</h4>
+		<div class="grid-container-job">
+			<div class="date">Février 2021</div>
+			<div class="title">Développeur Web freelance fullStack</div>
+			<div class="description">Mise à jour du site vitrine « PizzaSwing » (projet Perso)</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">PHP / MySQL</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">De Juillet à Novembre 2020</div>
+			<div class="title">Développeur Web freelance fullStack</div>
+			<div class="description">Création site e-commerce «Laucreats»</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">Angular 11 - NodeJS - MongoDB</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">2017 - 2020</div>
+			<div class="title">Développeur & Administrateur de communautée</div>
+			<div class="description">Développement et administration serveur de jeux.</div>
+			<div class="lang">(Création de scripts pour du Rôle-Play) en LUA, C#, JS</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">2015 - 2017</div>
+			<div class="title">Développeur web</div>
+			<div class="description">Autodidacte</div>
+			<div class="lang">Création / gestion site wordpress <br>
+				(Association sportive "badminton" )</div>
+		</div>
+		<h4>Projets de formations</h4>
+		<div class="grid-container-job">
+			<div class="date">Février 2020</div>
+			<div class="description">Projet 2 - Transformez une maquette en site web</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">HTML5 - CSS3 - Bootstrap</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Mars 2020</div>
+			<div class="description">Projet 3 - Dynamisez une page web avec des animations CSS</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">Sass7.1 - HTML5 - CSS3</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Avril 2020</div>
+			<div class="description">Projet 4 - Optimisez un site web existant</div>
+			<div class="lang_type">Bonne pratique SEO et WCAG</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Mai 2020</div>
+			<div class="description">Projet 5 - Construisez un site e-commerce</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">DOM en Js - CSS3 (front-end)</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Juin 2020</div>
+			<div class="description">Projet 6 - Construisez une API sécurisée pour une application d‛avis gastronomique</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">JS - mongoDB (back-end)</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Juillet 2020</div>
+			<div class="description">Projet 7 - Créez un réseau social d‛entreprise</div>
+			<div class="lang">Languages utilisés :</div>
+			<div class="lang_type">Angular 9(Sass) - SQL(sequelize) - NodeJs - Js</div>
+		</div>
+		
+		<h4>Autres domaines</h4>
+		<div class="grid-container-job">
+			<div class="date">Octobre 2010 - Septembre 2020</div>
+			<div class="title">Electricien</div>
+			<div class="description">ETS LEFEVRE(18)</div>
+			<div class="lang">Aménagement électrique neuf & rénovation domestique, tertiare & industriel.
+				Vente, installation & dépannage d‛éléctromenager.</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Mars 2009 - Septembre 2010</div>
+			<div class="title">Interimaire</div>
+			<div class="description">Adecco(45)</div>
+			<div class="lang">Aide-bobineur (Georgia pacific) | Electricien (Monsanto).</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Novembre 2007 - Août 2008</div>
+			<div class="title">Interimaire</div>
+			<div class="description">Planett(45)</div>
+			<div class="lang">Gestionnaire de quai (NorbertDentressangle). <br>
+				Préparateur de commandes (Deret).</div>
+		</div>
+		<div class="grid-container-job">
+			<div class="date">Avril 2006 - Octobre 2007</div>
+			<div class="title">Electricien</div>
+			<div class="description">ETS PLAZA(45)</div>
+		</div>
+	</section>
+
+	<!-- <h3 id="contact">Me contacter</h3>
+	<section>
+		<form method="POST" action="traitement.php">
+			<label for="firstname">Prénom</label>
+			<input class="firstname" type="text" name="firstname" placeholder="Votre prénom" required="required">
+			<label for="lastname">Nom</label>
+			<input class="lastname" type="text" name="lastname" placeholder="Votre prénom" required="required">
+			<br>
+			<label for="email">Email</label>
+			<input class="email" type="email" name="email" placeholder="Votre email" required="required">
+			<br>
+			<label for="subject">Sujet</label>
+			<input class="subject" type="text" name="subject" placeholder="Votre sujet" required="required">
+			<br>
+			<label for="message">Votre message</label>
+			<textarea name="message" required="required"></textarea> 
+			<br>
+			<input type="submit" name="Envoyer">
+		</form>
+	</section> -->
+
+	<footer>
+		<div class="grid-container-footer">
+			<div class="address">
+				<div class="grid-container-footer-info">
+					<div class="date">Mes Coordonnées</div>
+					<div class="title">33 rue du cormier</div>
+					<div class="description">18410 Blancafort</div>
+				</div>
+			</div>
+			<div class="reseaux">
+				<div class="grid-container-footer-info">
+					<div class="date">Mes reseaux</div>
+					<div class="title">
+						<a class="link_reseaux" href="https://github.com/dalton-x" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+						<a class="link_reseaux" href="https://www.linkedin.com/in/thomasgirard18/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="grid-container-footer-info">
+					<div class="title">
+						<a class="nav_studient" href="#studient"><i class="fas fa-circle"></i> Mes formations </a><br>
+						<a class="nav_job" href="#job"><i class="fas fa-circle"></i> Mes éxpériences professionnelles </a><br>
+						<a class="nav_skills" href="#skills"><i class="fas fa-circle"></i> Mes skills </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Permet de faire le logo pour up en haut de page -->
+	<div>
+		<a id="cRetour" class="cInvisible" onclick = 'scrollToId("top")'></a>
+	</div>
+
+	
+</body>
+<script>
+
+	// for auto change class fot visible or not visible button to scroll in top page
+	document.addEventListener('DOMContentLoaded', function() {
+		window.onscroll = function(ev) {
+			document.getElementById("cRetour").className = (window.pageYOffset > 150) ? "cVisible" : "cInvisible";
+		};
+	});
+
+	// For all links to anchor
+	document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+			e.preventDefault();
+
+			document.querySelector(this.getAttribute('href')).scrollIntoView({
+				behavior: 'smooth'
+			});
+    });
+	});
+
+	// for button in bottom page to link auto to top page
+	function scrollToId(id){
+    document.querySelector("#" + id).scrollIntoView({behavior: "smooth"});
+  }
+</script>
+</html>
