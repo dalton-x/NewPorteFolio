@@ -53,15 +53,7 @@ function Header() {
             </span>
           </li>
           <li>
-            <a href="#parcours" className="link nav-link py-3">
-              <i className="fas fa-route fa-3x text-danger"></i>
-            </a>
-            <span className="text-dark">
-              Parcours
-            </span>
-          </li>
-          <li>
-            <a href="#projets" className="link nav-link py-3">
+            <a href="#formation" className="link nav-link py-3">
               <i className="fas fa-tasks fa-3x text-danger"></i>
             </a>
             <span className="text-dark">
@@ -69,7 +61,15 @@ function Header() {
             </span>
           </li>
           <li>
-            <a href="#contact" className="link nav-link py-3">
+            <a href="#process" className="link nav-link py-3">
+              <i className="fas fa-route fa-3x text-danger"></i>
+            </a>
+            <span className="text-dark">
+              Parcours
+            </span>
+          </li>
+          <li>
+            <a href="mailto:contact@dev-web.fr" className="link nav-link py-3">
               <i className="fas fa-envelope fa-3x text-danger"></i>
             </a>
             <span className="text-dark">
