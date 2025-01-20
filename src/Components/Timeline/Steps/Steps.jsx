@@ -1,7 +1,5 @@
 
-export const Steps = ({ job }) => { 
-  console.log(job);
-  
+export const Steps = ({ job }) => {   
   return(
     <div className="timeline-item text-center">
       <h5>{job.date}</h5>

@@ -36,7 +36,7 @@ function Header() {
 
   return(
     <div className="container">
-      <div className="row align-items-center">
+      <div className="row align-items-center justify-content-center">
         <div className="col-1 text-center">
           <a href="/NewPorteFolio/" className="">
             <img src={darkMode === false ? './assets/logo_black.png' : './assets/logo_white.png'} className="img-fluid" alt="Logo dev-web.fr"></img>
