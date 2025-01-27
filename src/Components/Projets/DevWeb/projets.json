@@ -9,10 +9,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://projet-3.dev-web.fr/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target": "https://projet-3.dev-web.fr/",
+          "text": "Voir le site"
+        },
+        {
+          "target": "https://github.com/dalton-x/DW-TG-P3",
+          "text": "Voir le code"
+        }
+      ]
     }
   },
   {
@@ -48,10 +54,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://projet-5.dev-web.fr/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target": "https://projet-5.dev-web.fr/",
+          "text": "Voir le site"
+        },
+        {
+          "target": "https://github.com/dalton-x/DW-TG-P5",
+          "text": "Voir le code"
+        }
+      ]
     }
   },
   {
@@ -67,8 +79,8 @@
     },
     "footer": {
       "link": {
-        "url": "https://projet-6.dev-web.fr/",
-        "text": "Voir le site"
+        "url": "https://github.com/dalton-x/DW-TG-P6",
+        "text": "Voir le code"
       }
     }
   },
@@ -84,8 +96,8 @@
     },
     "footer": {
       "link": {
-        "url": "https://projet-7.dev-web.fr/",
-        "text": "Voir le site"
+        "url": "https://github.com/dalton-x/DW-TG-P7",
+        "text": "Voir le code"
       }
     }
   }
