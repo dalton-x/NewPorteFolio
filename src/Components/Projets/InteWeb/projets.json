@@ -9,10 +9,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://dalton-x.github.io/TG_inte_web_P2/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target" : "https://github.com/dalton-x/TG_inte_web_P2",
+          "text" : "Voir le code"
+        },
+        {
+          "target" : "https://dalton-x.github.io/TG_inte_web_P2",
+          "text" : "Voir le site"
+        }
+      ]
     }
   },
   {
@@ -25,10 +31,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://dalton-x.github.io/TG_inte_web_P3/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target" : "https://github.com/dalton-x/TG_inte_web_P3",
+          "text" : "Voir le code"
+        },
+        {
+          "target" : "https://dalton-x.github.io/TG_inte_web_P3",
+          "text" : "Voir le site"
+        }
+      ]
     }
   },
   {
@@ -41,10 +53,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://dalton-x.github.io/TG_inte_web_P4/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target" : "https://github.com/dalton-x/TG_inte_web_P4",
+          "text" : "Voir le code"
+        },
+        {
+          "target" : "https://dalton-x.github.io/TG_inte_web_P4",
+          "text" : "Voir le site"
+        }
+      ]
     }
   },
   {
@@ -57,10 +75,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://dalton-x.github.io/TG_inte_web_P5/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target" : "https://github.com/dalton-x/TG_inte_web_P5",
+          "text" : "Voir le code"
+        },
+        {
+          "target" : "https://dalton-x.github.io/TG_inte_web_P5",
+          "text" : "Voir le site"
+        }
+      ]
     }
   },
   {
@@ -74,10 +98,16 @@
       ]
     },
     "footer": {
-      "link": {
-        "url": "https://github.com/dalton-x/TG_inte_web_P6/",
-        "text": "Voir le site"
-      }
+      "btn": [
+        {
+          "target" : "https://github.com/dalton-x/TG_inte_web_P6",
+          "text" : "Voir le code"
+        },
+        {
+          "target" : "https://dalton-x.github.io/TG_inte_web_P6",
+          "text" : "Voir le site"
+        }
+      ]
     }
   },
   {
